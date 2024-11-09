@@ -585,7 +585,7 @@ svg circle:nth-child(2)
     .abt-me{
       /* order: 2; */
       padding-right: 0px;
-      text-align: center;
+      text-align: left;
     }
     .abt-me_div{
       order: 2;
