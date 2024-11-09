@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Kablammo&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-html{
-  
-}
 *{
     margin: 0px;
     padding: 0px;
@@ -198,7 +195,6 @@ section{
     width: 500;
     height: 20vh;
     padding-left: 50px;
-    margin-top: ;
   }
   .btns{
     display: flex;
@@ -526,7 +522,11 @@ svg circle:nth-child(2)
       align-items: center;
 
     }
+    .abt-me_div{
+      order: 2;
+    }
     .my_img{
+      order: 1;
       /* margin-top: 50px;
       margin-left: 10px; */
       margin-top: 50px;
@@ -575,4 +575,43 @@ svg circle:nth-child(2)
     height: 300px;
     border-radius: 100%;
   }
+}
+@media (max-width:500px){
+    .my_img{
+      order: 1;
+      width: 250px;
+      height: 250px;
+    }
+    .abt-me{
+      /* order: 2; */
+      padding-right: 0px;
+      text-align: center;
+    }
+    .abt-me_div{
+      order: 2;
+    }
+    .name-social{
+      padding-left: 0px;
+      justify-content: center;
+      align-items: center;
+    }
+    .letter{
+      font-size: 3rem;
+      text-align: center;
+    }
+    .p{
+      width: 300px;
+    }
+    .skills_heading{
+      padding-left: 0px;
+      text-align: center;
+    }
+    .project_heading{
+      padding-left: 0px;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .projects_main{
+      margin-top: 20px;
+    }
 }
